@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+
+    background-color: rgb(212, 211, 211);
+}
+
+.container {
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+}
+
+.box {
+    height: 300px;
+    width: 45%;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#box1 {
+    background-color: white;
+}
+
+#box2 {
+    background-color: white;
+    max-height: 300px;
+    
+    overflow: auto;
+    /* adds scrollbar if content overflows */
+}
+
+.type {
+
+    height: auto;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#drop {
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgb(243, 243, 243);
+}
+
+.label {
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207)
+}
+
+.add-btn {
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: rgb(9, 106, 218);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.add-btn:active {
+    background-color: rgb(255, 201, 23);
+    color: rgb(9, 106, 218);
+    opacity: 0.3;
+}
+
+.add-btn:hover {
+    background-color: rgb(255, 201, 23);
+    color: rgb(9, 106, 218);
+}
+
+#preview-area {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(148, 44, 44);
+
+    
+}
